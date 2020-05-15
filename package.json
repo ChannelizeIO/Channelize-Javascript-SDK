@@ -4,6 +4,7 @@
   "description": "Channelize JS Sdk - Javascript library for adding messaging platform to your web app.",
   "author": "Channelize.io",
   "homepage": "https://channelize.io",
+  "repository": "https://github.com/ChannelizeIO/Channelize-Javascript-SDK.git",
   "main": "./dist/index.js",
   "browser": {
     "./dist/index.js": "./dist/browser.js"
