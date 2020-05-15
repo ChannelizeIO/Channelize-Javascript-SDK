@@ -1,0 +1,54 @@
+{
+  "name": "channelize",
+  "version": "4.2.0",
+  "description": "Channelize JS Sdk - Javascript library for adding messaging platform to your web app.",
+  "author": "Channelize.io",
+  "homepage": "https://channelize.io",
+  "main": "./dist/index.js",
+  "browser": {
+    "./dist/index.js": "./dist/browser.js"
+  },
+  "scripts": {
+    "build:prod": "webpack --mode production --config ./webpack.config.js",
+    "build:dev": "webpack --mode development --config ./webpack.config.js",
+    "start": "webpack --watch --mode development --config ./webpack.config.js"
+  },
+  "keywords": [
+    "channelize",
+    "channelize.io",
+    "chat",
+    "messaging",
+    "conversation"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.1",
+    "aws-sdk": "^2.656.0",
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/polyfill": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-react": "^7.0.0-beta.51",
+    "babel-loader": "^8.0.0-beta.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.3",
+    "webpack-visualizer-plugin": "^0.1.11"
+  }
+}
