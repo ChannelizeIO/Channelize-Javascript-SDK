@@ -1,7 +1,7 @@
 {
   "name": "channelize-chat",
   "version": "4.2.0",
-  "description": "Channelize JS Sdk - Javascript library for adding messaging platform to your web app.",
+  "description": "JavaScript SDK for Channelize.io Chat API.",
   "author": "Channelize.io",
   "homepage": "https://channelize.io",
   "repository": "https://github.com/ChannelizeIO/Channelize-Javascript-SDK.git",
@@ -9,17 +9,24 @@
   "browser": {
     "./dist/index.js": "./dist/browser.js"
   },
+  "react-native": {
+    "./dist/index.js": "./dist/browser.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "channelize",
-    "channelize.io",
     "chat",
     "messaging",
-    "conversation"
+    "conversation",
+    "chat-application",
+    "realtime-messaging",
+    "chat-SDK",
+    "chatapp",
+    "messenger",
+    "channelize.io"
   ],
-  "license": "ISC",
+  "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
     "aws-iot-device-sdk": "^2.2.1",
     "aws-sdk": "^2.656.0",

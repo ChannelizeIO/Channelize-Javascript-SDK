@@ -1,0 +1,1 @@
+For license information, please visit: https://channelize.io/terms-and-conditions
