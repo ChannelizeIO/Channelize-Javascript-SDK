@@ -10,9 +10,7 @@
     "./dist/index.js": "./dist/browser.js"
   },
   "scripts": {
-    "build:prod": "webpack --mode production --config ./webpack.config.js",
-    "build:dev": "webpack --mode development --config ./webpack.config.js",
-    "start": "webpack --watch --mode development --config ./webpack.config.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "channelize",
