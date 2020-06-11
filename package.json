@@ -1,6 +1,6 @@
 {
   "name": "channelize-chat",
-  "version": "4.2.2",
+  "version": "4.2.3",
   "description": "JavaScript SDK for Channelize.io Chat API.",
   "author": "Channelize.io",
   "homepage": "https://channelize.io",
@@ -31,6 +31,7 @@
     "aws-iot-device-sdk": "^2.2.1",
     "aws-sdk": "^2.656.0",
     "axios": "^0.18.0",
+    "buffer": "^5.6.0",
     "uuid": "^8.1.0"
   },
   "devDependencies": {
