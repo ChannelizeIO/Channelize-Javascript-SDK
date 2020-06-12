@@ -1,17 +1,13 @@
 {
   "name": "channelize-chat",
-  "version": "4.2.4",
+  "version": "4.2.5",
   "description": "JavaScript SDK for Channelize.io Chat API.",
   "author": "Channelize.io",
   "homepage": "https://channelize.io",
   "repository": "https://github.com/ChannelizeIO/Channelize-Javascript-SDK.git",
   "main": "./dist/index.js",
-  "browser": {
-    "./dist/index.js": "./dist/browser.js"
-  },
-  "react-native": {
-    "./dist/index.js": "./dist/browser.js"
-  },
+  "browser": "./dist/index.js",
+  "react-native": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
